@@ -2,6 +2,9 @@
 
 A dashboard for visualizing GitHub repository insights and statistics.
 
+<img width="1800" alt="Screenshot 2025-04-18 at 16 02 09" src="https://github.com/user-attachments/assets/4c163db1-a6aa-471f-997c-154aefb7b713" />
+
+
 ## Technologies Used
 
 - Next.js
