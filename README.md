@@ -30,6 +30,28 @@ A dashboard for visualizing GitHub repository insights and statistics.
    ```
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
+## Docker Deployment
+
+You can also run this application using Docker:
+
+1. Build the Docker image:
+   ```bash
+   docker build -t gh-insights-dashboard .
+   ```
+
+2. Run the Docker container:
+   ```bash
+   # Run on port 3000 (default)
+   docker run -p 3000:3000 gh-insights-dashboard
+   
+   # Or use a different port if 3000 is already in use
+   docker run -p 3001:3000 gh-insights-dashboard
+   ```
+
+3. Access the application in your browser:
+   - If using default port: [http://localhost:3000](http://localhost:3000)
+   - If using alternative port: [http://localhost:3001](http://localhost:3001)
+
 ## Project Structure
 
 ```
